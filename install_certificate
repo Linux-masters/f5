@@ -1,0 +1,11 @@
+# Create your Chain Certificate 
+system > certificate managemt -> ssl Certificate List > traffic Certificate management > Import SSL Certificate and Key
+- import type= certificate 
+- New name Certificate
+- Get file upload 
+
+Local Traffic > Profiles > Clients >new profile
+- Provide name of profile 
+- Advanced and make custom in the box of right of your screan
+- Certificate Key Chain > add > Select your server certificate and same name is for key generate in F5 and select chain that you have created 
+Finesh the installation 
